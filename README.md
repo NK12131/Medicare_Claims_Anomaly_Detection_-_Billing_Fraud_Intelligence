@@ -49,41 +49,6 @@ Evaluation & Reporting
   (Accuracy: 98% | AUC-ROC | Confusion Matrix)
 ```
 
----
-
-## 📁 File Structure
-
-```
-├── notebooks/
-│   ├── 01_data_exploration.ipynb          # EDA on CMS Part D Medicare dataset
-│   ├── 02_preprocessing_governance.ipynb  # PII removal, feature engineering
-│   ├── 03_anomaly_detection.ipynb         # Isolation Forest + ensemble models
-│   ├── 04_predictive_modeling.ipynb       # Logistic Regression & Random Forest
-│   └── 05_feature_importance.ipynb        # Fraud predictor analysis for stakeholders
-├── src/
-│   ├── preprocess.py                      # Data cleaning & PII compliance pipeline
-│   ├── anomaly_detector.py                # Isolation Forest inference
-│   └── fraud_classifier.py               # Ensemble + feature importance
-├── data/
-│   └── sample/                            # De-identified sample records
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🧪 Model Performance
-
-| Model | Accuracy | AUC-ROC |
-|-------|----------|---------|
-| Isolation Forest | — | — |
-| Ensemble (Voting/Boosting) | **98%** | — |
-| Logistic Regression | — | — |
-| Random Forest | — | — |
-
-> *Populate with your full evaluation results.*
-
----
 
 ## 🛠️ Tech Stack
 
